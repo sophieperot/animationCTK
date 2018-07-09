@@ -35,20 +35,22 @@ hgroup {
 	margin: 1.5em 0 0;
 }
 h1, .h1-like {
-	font-size: 1.8571em; /* equiv 26px */
+	font-size: 4.9em; /* equiv 26px */
 	font-weight: normal;
 	line-height: 1.6154em;
 	margin: .8077em 0 0 0;
   color: #277696;
-  margin: 0px
+  margin: 0px;
+	font-weight: lighter;
 }
 h2, .h2-like {
 	font-size: 1.4286em; /* equiv 20px */
 	font-weight: normal;
-	line-height: 1.75em;
+	line-height: 0.5em;
 	margin: .875em 0 0 0;
-  color: #5D6273;
-  margin: 0px
+  color: #fff;
+  margin: 0px;
+	font-weight: 200;
 }
 h3, .h3-like {
 	font-size: 1.2857em; /* equiv 18px */
@@ -274,13 +276,25 @@ hgroup, menu, nav, section {
     height: 43px;
 }
 .wrapper {
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
-    padding-left: 40px;
-    padding-right: 40px;
     overflow: hidden;
+		padding-top: 120px;
 }
 .welcome .section {
     position: relative;
     overflow: hidden;
+}
+#block-text {
+		height: 500px;
+		width: 30%;
+		float: left;
+		padding:5%;
+}
+#block-animation {
+		height: 500px;
+		width: 50%;
+		background-color: #C75B94;
+		float: left;
+		padding:5%;
 }
