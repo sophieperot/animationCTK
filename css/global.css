@@ -299,9 +299,8 @@ hgroup, menu, nav, section {
 		padding:5%;
 }
 .animation {
-	width: 100%;
+	width: 50%;
 	margin: auto;
-	position: absolute;
 }
 .bt-CTK {
 		background-color: #277696;
@@ -317,6 +316,10 @@ hgroup, menu, nav, section {
     display: inline-block;
 		outline:none;
 		cursor: pointer;
+}
+img{
+	width: 100%;
+	margin: auto;
 }
 
 .bt-CTK:hover {
